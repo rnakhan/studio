@@ -95,7 +95,7 @@ export default function Home() {
       <Card className="w-full max-w-lg shadow-lg border-2">
         <CardHeader className="text-center">
           <CardTitle className="text-4xl font-headline tracking-tight text-primary">Task Ticker</CardTitle>
-          <CardDescription>Your friendly neighborhood task list.</CardDescription>
+          <CardDescription>Your friendly task list.</CardDescription>
         </CardHeader>
         <CardContent>
           <form onSubmit={handleAddTask} className="flex w-full items-center space-x-2">
@@ -107,7 +107,7 @@ export default function Home() {
               className="flex-1"
               aria-label="New task input"
             />
-            <Button type="submit">Add Task</Button>
+            <Button type="submit">Add this Task</Button>
           </form>
           <div className="mt-6 space-y-2">
             {tasks.length > 0 ? (
